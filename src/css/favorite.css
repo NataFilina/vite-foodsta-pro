@@ -1,0 +1,25 @@
+.favorites-section {}
+
+.favorites-container {}
+
+.favorites-title {}
+
+.fovorites-text {}
+
+.favorites-list-wrap {
+    display: flex;
+}
+
+.fovorites-list {
+    list-style: none;
+}
+
+.favorites-item {}
+
+.favorites-image {}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
