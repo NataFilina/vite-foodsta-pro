@@ -17,27 +17,53 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/vite-foodsta-pro/assets/index-0a8a0b3f.js"></script>
-    <link rel="stylesheet" href="/vite-foodsta-pro/assets/index-834312b7.css">
+    <script type="module" crossorigin src="/vite-foodsta-pro/assets/index-d7eb4535.js"></script>
+    <link rel="stylesheet" href="/vite-foodsta-pro/assets/index-826afd4f.css">
   </head>
   <body>
     <header>
-      <div class="container header-container">
-        <a class="logo" href="./index.html"
-          ><img src="/vite-foodsta-pro/assets/logo-15ecd931.svg" alt="logo" width="66" height="52"
-        /></a>
-        <nav class="navigation">
-          <ul class="nav-list">
-            <li><a class="nav-link" href="">Home</a></li>
-            <li><a class="nav-link" href="">About</a></li>
-            <li><a class="nav-link" href="">Service</a></li>
-            <li><a class="nav-link" href="">Menu</a></li>
-            <li><a class="nav-link" href="">Contact</a></li>
-          </ul>
-        </nav>
-        <button class="header-btn" type="button">Order now</button>
-      </div>
-    </header>
+  <div class="header-container">
+    <a class="logo" href="./index.html"
+      ><img src="/vite-foodsta-pro/assets/logo-15ecd931.svg" alt="logo" width="66" height="52"
+    /></a>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="">Home</a></li>
+        <li><a class="nav-link" href="">About</a></li>
+        <li><a class="nav-link" href="">Service</a></li>
+        <li><a class="nav-link" href="">Menu</a></li>
+        <li><a class="nav-link" href="">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="header-btn" type="button">Order now</button>
+    <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="hamburger" width="32px" height="22px">
+              <use href="/vite-foodsta-pro/assets/icons-5939f426.svg#icon-hamburger"></use>
+            </svg>
+          </button>
+  </div>
+</header>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="js-close-menu close-button mobile-close-button">
+        <svg width="10" height="10">
+          <use href="/vite-foodsta-pro/assets/icons-5939f426.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-navs">
+        <li class="mobile-nav"><a href="./index.html">Home</a></li>
+        <li class="mobile-nav"><a href="">About</a></li>
+        <li class="mobile-nav"><a href="">Service</a></li>
+        <li class="mobile-nav"><a href="">Menu</a></li>
+        <li class="mobile-nav"><a href="">Contact</a></li>
+      </ul>
+</div>
+
     <section class="hero">
   <div class="container hero-container">
     <div class="hero-content">
